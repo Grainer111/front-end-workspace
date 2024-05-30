@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>폼 실습</title>
+  </head>
+  <body>
+    
+    <h2>주문하기</h2>
+<!--
+    name : 서버에 보낼때 담을 공간명
+    value : 서버에 보낼때 name 공간에 담을 값
+    
+    id : 태그의 고유 명칭 부여
+    for : input의 id와 연결
+   
+-->
+    <form action="" method="post">
+      <label for="">고객명 : </label>
+      <input type="text" name="name" id="고객명" /> 
+     
+      <p></p>
+   
+      <label for="">전화번호 : </label>
+      <input type="text" name="phone" id="전화번호" />
+      <p></p>
+    
+    
+        <label for="">E-mail : </label>
+        <input type="text" name="email" id="E-mail" />
+        <p></p>
+
+        
+            <fieldset>
+              <legend>피자 사이즈</legend>
+              <label for="">
+                <input type="radio" name="size" value="Small" id="Small"  checked /> Small <br />
+              </label>
+              <label for="">
+                <input type="radio" name="size" value="Midium" id="Midum" /> Midium <br />
+              </label>
+              <label for="">
+                <input type="radio" name="size" value="Large" id="Large" checked /> Large <br />
+            </fieldset>
+            <fieldset>
+              <legend>관심사</legend>
+              <label>
+                <input type="checkbox" name="topping"  value="Bacon"/> 베이컨
+              
+              </label>
+              <label>
+                <input type="checkbox" name="topping"  value="Cheeze"/> 치즈
+              </label>
+              <input type="checkbox" name="topping" value="Onion"/> 양파
+            </label>
+            <label>
+              <input type="checkbox" name="topping" value="Mushroom" /> 버섯
+            </label>
+</fieldset>
+            
+            
+            
+            <h2></h2>희망 배송 시간: <input type="time">
+            <p></p>
+
+           배송시 요청 사항: <textarea style="resize: none"> 
+            
+            
+            </textarea>
+
+            <input type= "submit" value = "주문하기">
+
+            
+
+ </form>
+
+
+  </body>
+</html>
