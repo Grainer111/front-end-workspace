@@ -4,6 +4,9 @@
 }
 body {
   background-color: indianred;
+  background-image: ;
+  height: 100vh;
+  padding: 20px;
 }
 .profile-card {
   text-align: center;
