@@ -1,0 +1,33 @@
+.container {
+  background: lightgrey;
+
+  height: 100vh;
+  display: flex;
+}
+/* 3. flex wrap */
+flex-wrap: wrap-reverse;
+flex-wrap: nowrep;
+.item {
+  background-color: white;
+  border: 3px solid black;
+}
+/*flex wrap 
+.item img {
+  width: 95px;
+  height: 95px;
+}
+.item img
+width: 95px;
+height: 95px;
+
+/* 4. justify-content: */ 
+
+.center {
+justify-content: center 
+justify-content: space-evenly;
+justify-content: flex-start;
+}
+
+/* 5. align-items */
+align-items: flex-end;
+align-items: .center

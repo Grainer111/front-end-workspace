@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+padding-top: 50px;
+padding-right: 100px;
+
+/* 상/하 : 50px, 좌/우 : 30px */
+ padding : 50px 30px;
+
+/* 상 : 30px, 우 : 50px, 하 : 20px, 좌 40px */
+
+# margin1 {
+    margin: 50px;
+}
+
+# margin2 {
+    margin-top: 60px;
+    margin: 50px 30px;
+    margin: 30px 50px 20px 
+
+}
+/* border : width style color */
+.border1 {
+    width: 100px ;
+    height: 100px;
+    #border1: 10px solid black
+    box-sizing: double ;
+}
+#border2 {
+    border-style: dashed
+    border-color: 
+}
+#border3 {
+    border-style: double;
+
+    border-style:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>
+
+
+
+
+.visiability {
+    width: ; 100px
+    height: ; 100px
+    border: 1px solid;
+}
+
+#vis1 {
+    /*
+    visabiliy: hidden / display : none */
+
+
+}
+
+#z-outer {
+    position: ;
+}
+
+#z-index1 {
+background-color: : orange
+}
+
+#z-index2 {
+background-color: : blueviolet
+
+}
+
+#z-index3 {
+    background-color: : green
+}Z-inedx: 9999;

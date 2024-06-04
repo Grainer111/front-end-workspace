@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: indianred;
+}
+.profile-card {
+  text-align: center;
+  width: 100px;
+  height: 280px;
+  border: 2px solid white;
+  /*
+  position: absolute;
+  top: 20px;
+  left: 50% ;
+  transform: translate(-50%); /*얘는 뒤에서 배움 */
+}
+
+/* 얘는 뒤에서 배움 */
+/*{
+  margin: 20px auto;
+  border-radius: 10%;
+}*/
+
+.progile-image {
+  background-image: url(../../../resources/bao.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+}
+
+.profile-card a {
+  border: 2px solid white;
+  display: block;
+  margin: 15px;
+  /*
+    heigh: 40px;
+    line-heigh: 40px;
+    height: 40px;
+    line-height: 40px;
+    */
+}
